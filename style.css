@@ -146,3 +146,32 @@ form button {
     color: var(--light-red);
     margin: .5em 0;
 }
+
+@media only screen and (min-width: 575px) {
+    .container {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 680px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    form {
+        flex-direction: row;
+    }
+
+    form input {
+        flex: 70%;
+    }
+
+    form button {
+        margin: 0 1em;
+        flex: 30%;
+    }
+}
