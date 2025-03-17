@@ -90,6 +90,11 @@ form button {
     box-shadow: 0 5px 10px hsl(223, 87%, 80%);
 }
 
+form button:hover {
+    cursor: pointer;
+    background-color: hsl(223, 87%, 70%);
+}
+
 .illustration {
     display: block;
     width: 100%;
@@ -144,7 +149,8 @@ form button {
     font-size: .7rem;
     font-style: italic;
     color: var(--light-red);
-    margin: .5em 0;
+    margin: .5em 30px;
+    text-align: center;
 }
 
 .attribution {
@@ -183,5 +189,9 @@ form button {
     form button {
         margin: 0 1em;
         flex: 30%;
+    }
+
+    .error {
+        text-align: left;
     }
 }
