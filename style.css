@@ -106,7 +106,7 @@ form button:hover {
 }
 
 
-.socials a {
+.socials div {
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -127,15 +127,16 @@ form button:hover {
     transform: translate(-50%, -45%);
 }
 
-.socials a:last-child i {
+.socials div:last-child i {
     font-size: 1.4rem;
 }
 
-.socials a:hover {
+.socials div:hover {
     background-color: var(--primary-blue);
+    cursor: pointer;
 }
 
-.socials a:hover i {
+.socials div:hover i {
     color: #fff;
 }
 
